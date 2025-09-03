@@ -1,0 +1,13 @@
+Check list :
+
+Check if the browser supports geo location.
+
+Set options for high accuracy, a 5-sec timeout and no caching(max age is 0). use watchPosition to track the location. Emit the location to the server using socket.io and log any error to the console.
+
+initialize a map centered at coordinates (0,0) with zoom level 15(MOST ZOOM). Add a tile layer from OpenStreetMap.
+
+Create an empty marker variable.
+
+When receving location data via socket and extract id, latitude and longitude from the data. If the marker variable is empty, create a new marker at the received latitude and longitude and add it to the map.and center the map to new coordinates.
+
+If the marker of the id exist update the marker's position to the new latitude and longitude.and center the map to new coordinates.otherwise create a new marker at the received latitude and longitude and add it to the map.and center the map to new coordinates.and delete when user disconnects.
