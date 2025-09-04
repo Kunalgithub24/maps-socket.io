@@ -2,6 +2,8 @@
 
 This project is a real-time map tracker using [Express](https://expressjs.com/), [Socket.io](https://socket.io/), [Leaflet.js](https://leafletjs.com/), and [EJS](https://ejs.co/). It displays the live location of connected users on a map and updates their positions as they move.
 
+<img width="1920" height="871" alt="Image" src="https://github.com/user-attachments/assets/2c06bf9e-90ed-481d-ba6f-d70bae478d56" />
+
 ## Features
 
 - Tracks user location using browser geolocation API.
