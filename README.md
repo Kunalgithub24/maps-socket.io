@@ -61,6 +61,7 @@ This project is a real-time map tracker using [Express](https://expressjs.com/),
 
 ## Notes
 
-- Make sure your browser allows location access.
+**Make sure your computer's location setting is turned ON before accessing the site.**  
+- Your browser must allow location access.  
 - Multiple users can open the site and see each other's locations in real time.
 
